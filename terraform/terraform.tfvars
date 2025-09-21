@@ -1,9 +1,9 @@
-aws_region = "us-west-2"
-cluster_name = "demo-eks-cluster"
+aws_region = "ap-south-1"
+cluster_name = "thiru-eks-cluster"
 
 create_ecr = true
 
 ecr_repos = {
-  frontend = "company-frontend"
-  backend  = "company-backend"
+  frontend = "tm-frontend"
+  backend  = "tm-backend"
 }
